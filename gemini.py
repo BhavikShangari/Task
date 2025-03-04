@@ -3,7 +3,7 @@ import os
 import time
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain_chroma import Chroma
+# from langchain_chroma import Chroma
 from langchain_community.chat_message_histories import ChatMessageHistory
 # from langchain_community.document_loaders import WebBaseLoader
 from langchain_core.chat_history import BaseChatMessageHistory
@@ -14,7 +14,7 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.document_loaders import PyMuPDFLoader
 from langchain_google_genai import ChatGoogleGenerativeAI
-import torch
+# import torch
 # os.environ["GOOGLE_API_KEY"] = "AIzaSyDuXBRuUZLyIUcM78NtUye9uY5BJKUrWow"
 os.environ["GOOGLE_API_KEY"] = "AIzaSyBclgFWk-puE618EnrNx5N2jjSoq6xDRYk"
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
